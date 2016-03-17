@@ -120,7 +120,7 @@ image.onload = function() {
 
 ## CLI
 
-A command-line utility is available when you're working in the npm environment.A
+A command-line utility is available when you're working in the npm environment.
 
 Run
 ```
