@@ -1,7 +1,8 @@
 {
   "name": "image-outline",
   "version": "0.1.0",
-  "description": "",
+  "description": "Get a polygon outline for the opaque (or non-white or non-black) area of an image, in the browser, in node, or on the command line",
+  "repository": "https://github.com/scottglz/image-outline",
   "main": "node.js",
   "browser": "./browser.js",
   "bin": {
