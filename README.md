@@ -69,7 +69,7 @@ var getImageOutline = require('image-outline');
 
 // Get your hands on a loaded HTMLImageElement, preferably one showing a PNG,
 // with a transparent background, maybe of a cow. 
-var imageElement = new Image();
+var image = new Image();
 image.href = 'http://www.cow.pics/cow.png';
 image.onload = function() {
    var polygon = getImageOutline(image);
@@ -110,7 +110,7 @@ So now your JavaScript can work like this:
 ```javascript
 // Get your hands on a loaded HTMLImageElement, preferably one showing a PNG,
 // with a transparent background, maybe of a cow. 
-var imageElement = new Image();
+var image = new Image();
 image.onload = function() {
    var polygon = getImageOutline(image);
    // polygon is now an array of {x,y} objects. Have fun!
