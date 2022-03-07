@@ -42,7 +42,7 @@ getImageOutline('http://www.cow.pics/cow.png', function(err, polygon) {
    }
    
    // polygon is now an array of {x,y} objects. Have fun!
-};
+});
 ```
 
 ## From the Browser
